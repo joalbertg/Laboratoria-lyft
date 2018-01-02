@@ -1,0 +1,54 @@
+body > .splash {
+  background-image: url('../assets/images/splash.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  height: auto;
+  width: 70%;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: purple;
+}
+
+.btn-secondary {
+  background-color: rgb(238, 59, 88);
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  height: auto;
+  width: 70%;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+}
+
+#btn-group {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+}
+
+nav {
+  background-color: white;
+}
+
+nav .brand-logo {
+  color: black;
+  font-size: 1.5em;
+}
+
+nav ul a {
+  color: black;
+}
