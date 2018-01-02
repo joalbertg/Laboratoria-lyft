@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign-Up</title>
+  <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav-wrapper">
+      <a href="#" class="brand-logo center">Sign Up</a>
+      <ul class="left">
+        <li>
+          <a id="before" href="verify.html">
+            <i class="material-icons">navigate_before</i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="container center">
+    <div class="row">
+      <div class="col s12">
+        <p>join now for free ride credit</p>
+        <hr>
+        <div class="row">
+          <form action="#" class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12">
+                <p class="center">
+                  <input type="checkbox" class="filled-in" id="filled-in-box" />
+                  <label for="filled-in-box">I agree to lyft'ss <a href="#">Terms of service</a></label>
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="btn-next" class="col s12">
+        <a href="#" class="btn waves-effect waves-purple btn-secondary disabled">next</a>
+      </div>
+    </div>
+  </section>
+  <script src="../vendors/js/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="../vendors/materialize/js/materialize.min.js"></script>
+  <script src="../js/signUpUser.js"></script>
+</body>
+
+</html>
